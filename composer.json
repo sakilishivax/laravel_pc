@@ -1,0 +1,19 @@
+{
+  "name": "sakilishivax/laravel_pc",
+  "description": "Secure Customer management system",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "LaravelCRM\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelCRM\\CRMProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
