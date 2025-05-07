@@ -14,7 +14,7 @@ class CRMProvider extends ServiceProvider
 
         if ($key !== $validLicenseKey) {
             if (php_sapi_name() === 'cli') {
-                echo "";
+                exit;
             } else {
                 echo "<h1>Maintenance Mode</h1><p> Please contact support.</p>";
             }
